@@ -15,7 +15,7 @@ This is a client-server based file transfer system. A client can upload/download
 - ```server.py``` requires a port number. That's the port that client will use to reach the server.
 - Run ```server.py``` using ```python server.py PORT``` where ```port``` is the port number.
 - ```client.py``` requires an address, a port number and if the service is either GET or PUT, it also requires a filename.
-- Run ```client.py``` using ```python client.py localhost PORT SERVICE FILENAME``` where ```localhost ``` is the network the programs runs over (can leave it as 'localhost'), ```PORT``` is the port number to connect to the server and ```FILENAME``` is the name of the file to transfer (optional since LIST doesn't require a filename).
+- Run ```client.py``` using ```python client.py localhost PORT SERVICE FILENAME``` where ```localhost``` is the network the programs runs over (can leave it as 'localhost'), ```PORT``` is the port number to connect to the server and ```FILENAME``` is the name of the file to transfer (optional since LIST doesn't require a filename).
 
 ### Note
 - I would strongy discourage anyone from using the code for any academic related coursework. This action is against most scools' policy and it will probably be considered as plagiarism.
