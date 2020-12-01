@@ -18,7 +18,7 @@ This is a client-server based file transfer system. A client can upload/download
 - Run ```client.py``` using ```python client.py localhost PORT SERVICE FILENAME``` where ```localhost``` is the network the programs runs over (can leave it as 'localhost'), ```PORT``` is the port number to connect to the server and ```FILENAME``` is the name of the file to transfer (optional since LIST doesn't require a filename).
 
 ## Tips
-- ```server.py``` and ```client.py``` have ```from functions.shared_functions import *``` as they are supposed to run on different directories because the programs doesn't allow overwrites and running both of them over the same directory will cause a runtime error. ```"functions"``` is this case is a directory that exists on the parent directory of ```server.py``` and ```client.py```.
+- Both ```server.py``` and ```client.py``` include ```from functions.shared_functions import *``` as they are supposed to run on different directories because the programs doesn't allow overwrites and running both of them over the same directory will cause a runtime error. ```"functions"``` in this case is a directory that exists on the parent directory of ```server.py``` and ```client.py```.
 ### Note
 - I would strongy discourage anyone from using the code for any academic related coursework. This action is against most scools' policy and it will probably be considered as plagiarism.
 - The code is entirely written by me.
