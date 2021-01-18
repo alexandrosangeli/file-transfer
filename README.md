@@ -22,7 +22,7 @@ This is a client-server based file transfer system. A client can upload/download
 
 ## Tips
 - Both ```server.py``` and ```client.py``` include ```from functions.shared_functions import *``` as they are supposed to run on different directories because the system doesn't allow overwrites and running both of them over the same directory will cause a runtime error. ```"functions"``` in this case is a directory that exists on the parent directory of ```server.py``` and ```client.py```.
-### Note
+## Note
 - I would strongy discourage anyone from using the code for any academic related coursework. This action is against most scools' policy and it will probably be considered as plagiarism.
 - The code is entirely written by me.
 
