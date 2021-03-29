@@ -1,5 +1,5 @@
-# File Transferring
-This is a client-server based file transfer system. A client can upload/download files from a server that runs on its local network.
+# FTP Server
+Clients can upload/download files from a server that runs on the local network.
 
 ## How it works
 - Both the server and the client must run over the same netowork.
